@@ -101,6 +101,14 @@ body {
     fill: #c7b299;
 }
 
+.header-logo:hover:active .header-logo-title {
+    color: darkgoldenrod;
+}
+
+.header-logo:hover:active .header-logo-icon {
+    fill: darkgoldenrod;
+}
+
 .header-logo-icon {
     display: block;
     fill: #fff;
@@ -147,7 +155,11 @@ body {
 .page-header-menu-link:hover {
     color: #c7b299;
 }
-  
+
+.page-header-menu-link:active {
+    color: darkgoldenrod;
+}
+
 .link8 {
     margin: 0;
 }
@@ -159,6 +171,10 @@ body {
 
 .header-logo-basket:hover {
     fill: #c7b299;
+}
+
+.header-logo-basket:active {
+    fill: darkgoldenrod;
 }
 
 .search-icon-form {
@@ -241,7 +257,11 @@ body {
 .left-switch-icon:hover {
     fill: currentcolor;
 }
-  
+
+.left-switch-icon:active {
+    fill: darkgoldenrod;
+}
+
 .page-header-center {
     width: 590px;
     box-sizing: border-box;
@@ -305,7 +325,11 @@ body {
 .page-header-center-btn:hover {
    background-color: #635244;  
 }
-  
+
+.page-header-center-btn:active {
+    filter: brightness(40%);
+}
+
 .right-switch {
     margin: 94px 0 94px 475px;
     display: block;
@@ -320,7 +344,11 @@ body {
 .right-switch-icon:hover {
     fill: currentcolor;
 }
-  
+
+.right-switch-icon:active {
+    fill: darkgoldenrod;
+}
+
 .header-pagination {
     margin: 289px 0 40px 0;
     display: flex;
@@ -562,6 +590,10 @@ body {
     background-color: #635244;  
 }
 
+.realization-footer-btn:active {
+filter: brightness(70%);
+}
+
 /*=================Projects=================*/
 
 .projects {
@@ -719,6 +751,14 @@ body {
     color: #c7b299;
 }
 
+.projects-preview-description:hover:active .project-preview-link-icon:hover:active {
+fill: darkgoldenrod;
+}
+
+.projects-preview-description:hover:active .project-preview-search-icon:hover:active {
+    fill: darkgoldenrod;
+}
+
 /* =========Description:hover========== */
 
 .projects-preview-img {
@@ -816,7 +856,9 @@ body {
     background-color: #635244;
 }
 
-
+.pjojects-fotter-btn:active {
+    filter: brightness(70%);
+}
 
 .video-block {
     background-image: url('../img/bg_photo_10983.png');
