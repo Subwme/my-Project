@@ -1670,10 +1670,6 @@ fill: darkgoldenrod;
 
 @media screen and (max-width: 576px) {
 
-html, body {
-    width: 576px;
-}
-
 .container {
     width: 100%;
 }
