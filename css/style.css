@@ -1257,12 +1257,32 @@ fill: darkgoldenrod;
     line-height: 20px;
     color: #c7b299;
     text-transform: capitalize;
+    position: relative;
+    transition: .4s;
 }
-  
+
+.recent-card-info-link:after {
+    display: block;
+    content: "";
+    background-image: url('../img/11665.svg');
+    position: absolute;
+    margin: 0 0 0 10px;
+    width: 7px;
+    height: 10px;
+    top: 5px;
+    left: 74px;
+    opacity: 0;
+    transition: .4s;
+}
+
 .recent-card-info-link:hover {
     color: gold;
   }
-  
+
+.recent-card-info-link:hover:after {
+    opacity: 1;  
+}
+
 .recent-card-date {
     position: absolute;
     margin: 20px 0 0 20px;
@@ -1351,11 +1371,14 @@ fill: darkgoldenrod;
     outline-offset: 0;
     height: 22px;
     width: 22px;
-    fill: #d1d1d1;
+    fill: #d1d1d1;  
+    transition: .4s;
 }
 
 .recent-btn:hover {
     fill: #c7b299;
+    transform: scale(1.1);
+    transition: .4s;
 }
 
 /*=================COMPANY=================*/
@@ -1919,7 +1942,11 @@ fill: darkgoldenrod;
 
 .recent-card {
     width: 80%;
-    margin: 10px auto;     
+    margin: 10px auto 20px;     
+}
+
+.recent-card-img {
+    height: 245px;
 }
 
 .recent-buttons {
