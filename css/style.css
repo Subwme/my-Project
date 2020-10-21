@@ -1949,10 +1949,6 @@ fill: darkgoldenrod;
     margin: 15px 0 0 0;
 }
 
-.recent-buttons {
-    margin: 0 auto;
-}
-
 .company {
     padding: 40px;
     flex-wrap: wrap;
@@ -1966,8 +1962,6 @@ fill: darkgoldenrod;
     display: block;
     margin: 0;
 }
-
-
 
 .page-footer {
     padding: 30px 20px;
@@ -1999,13 +1993,13 @@ fill: darkgoldenrod;
 }
 
 .footer-contacts {
-    padding: 30px 20px;
+    padding: 20px;
     flex-wrap: wrap;
+    justify-content: center;
  }
 
 .footer-contacts-block {
-    max-width: 100%;
-    margin: 10px auto;
+    margin: 0 0 10px 0;
     }
 }
 
