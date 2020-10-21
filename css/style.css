@@ -774,7 +774,6 @@ fill: darkgoldenrod;
 
 .projects-preview-img {
     display: block;
-    width: 100%;
 }
 
 .projects-preview-wrp {
@@ -1151,6 +1150,7 @@ fill: darkgoldenrod;
     position: relative;
     border: 1px solid #f8f8f8;
     transition: .5s;
+    margin: 0 0 40px 0;
   
 }
 
@@ -1909,7 +1909,7 @@ fill: darkgoldenrod;
     text-align: left;
     font-size: 12px;
     display: block;
-    max-width: 57%;
+    max-width: 50%;
     padding: 0 0 0 10px;
     line-height: 20px;
     box-sizing: border-box;
@@ -1940,8 +1940,11 @@ fill: darkgoldenrod;
     font-size: 14px;
 }
 
+.recent-card-wrp {
+    justify-content: center;
+}
+
 .recent-card {
-    width: 80%;
     margin: 10px auto 20px;     
 }
 
@@ -1954,9 +1957,7 @@ fill: darkgoldenrod;
 }
 
 .company {
-    padding: 40px 20px 30px 20px;
-    flex-wrap: wrap;
-    justify-content:space-around;
+    padding: 40px;
 }
 
 .desktop-company-label-img {
@@ -1964,8 +1965,8 @@ fill: darkgoldenrod;
 }
 
 .mobile-company-label-img {
-    width: 5%;
     display: block;
+    margin: 0 auto;
 }
 
 .company-label-img-logo {
