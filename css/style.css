@@ -1668,7 +1668,11 @@ fill: darkgoldenrod;
 
 /*=================MEDIA576=================*/
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
+
+html, body {
+    width: 576px;
+}
 
 .container {
     width: 100%;
@@ -1943,6 +1947,10 @@ fill: darkgoldenrod;
 .recent-card {
     width: 80%;
     margin: 10px auto 20px;     
+}
+
+.recent-card-info-title {
+    margin: 15px 0 0 0;
 }
 
 .recent-buttons {
