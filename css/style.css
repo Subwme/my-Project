@@ -63,13 +63,10 @@
     font-style: normal;
 }
 
-body {
-    margin: 0 auto;
-}
 /*=================Header=================*/
 .container {
     width: 1920px;
-    margin: 0 auto;
+    margin: 0;
 }
   
 .page-header {
@@ -1958,6 +1955,7 @@ fill: darkgoldenrod;
 
 .company {
     padding: 40px;
+    flex-wrap: wrap;
 }
 
 .desktop-company-label-img {
@@ -1966,12 +1964,10 @@ fill: darkgoldenrod;
 
 .mobile-company-label-img {
     display: block;
-    margin: 0 auto;
+    margin: 0;
 }
 
-.company-label-img-logo {
-    margin: 0 0 20px 0;
-}
+
 
 .page-footer {
     padding: 30px 20px;
